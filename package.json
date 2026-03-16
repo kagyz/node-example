@@ -1,0 +1,19 @@
+{
+  "name": "kagyz-node-example",
+  "version": "1.0.0",
+  "description": "Generate business document PDFs from JSON using the Kagyz API",
+  "type": "module",
+  "scripts": {
+    "invoice": "node invoice.js",
+    "receipt": "node receipt.js",
+    "quote": "node quote.js",
+    "credit-note": "node credit-note.js",
+    "packing-slip": "node packing-slip.js",
+    "arabic": "node arabic-invoice.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.0"
+  },
+  "keywords": ["pdf", "invoice", "receipt", "api", "kagyz", "json-to-pdf"],
+  "license": "MIT"
+}
