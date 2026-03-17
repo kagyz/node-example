@@ -29,6 +29,19 @@ Get your API key at [kagyz.com](https://kagyz.com).
 | `credit-note.js` | `npm run credit-note` | Credit note referencing an invoice |
 | `packing-slip.js` | `npm run packing-slip` | Packing slip with SKUs and weights |
 | `arabic-invoice.js` | `npm run arabic` | RTL Arabic invoice (SAR currency) |
+| `branded-invoice.js` | `npm run branded` | Invoice with custom accent color |
+
+## Custom Branding
+
+You can override the accent color per-request using the `branding` field:
+
+```javascript
+branding: {
+  accent_color: '#22c55e'
+}
+```
+
+To add your company logo, upload it via the [Kagyz Dashboard](https://app.kagyz.com/branding). The logo will appear on all generated documents automatically.
 
 ## How It Works
 
