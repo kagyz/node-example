@@ -31,6 +31,23 @@ Get your API key at [kagyz.com](https://kagyz.com).
 | `timesheet.js` | `npm run timesheet` | Timesheet invoice with hourly billing |
 | `arabic-invoice.js` | `npm run arabic` | RTL Arabic invoice (SAR currency) |
 | `branded-invoice.js` | `npm run branded` | Invoice with custom accent color |
+| `email-invoice.js` | `npm run email` | Generate invoice and send via email |
+
+## Email Delivery
+
+Add `deliver_to` to any request to email the PDF as an attachment:
+
+```javascript
+deliver_to: {
+  email: 'client@example.com',
+  subject: 'Invoice INV-001 from Acme Corp',  // optional, auto-generated if omitted
+  message: 'Please find your invoice attached.' // optional, auto-generated if omitted
+}
+```
+
+The PDF is still returned in the response. The `X-Kagyz-Delivered-To` header confirms delivery.
+
+Note: `from.email` is required when using email delivery.
 
 ## Custom Branding
 
