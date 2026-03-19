@@ -9,6 +9,7 @@
     "quote": "node quote.js",
     "credit-note": "node credit-note.js",
     "packing-slip": "node packing-slip.js",
+    "timesheet": "node timesheet.js",
     "arabic": "node arabic-invoice.js",
     "branded": "node branded-invoice.js"
   },

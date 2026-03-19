@@ -28,6 +28,7 @@ Get your API key at [kagyz.com](https://kagyz.com).
 | `quote.js` | `npm run quote` | Quote / estimate with expiry date |
 | `credit-note.js` | `npm run credit-note` | Credit note referencing an invoice |
 | `packing-slip.js` | `npm run packing-slip` | Packing slip with SKUs and weights |
+| `timesheet.js` | `npm run timesheet` | Timesheet invoice with hourly billing |
 | `arabic-invoice.js` | `npm run arabic` | RTL Arabic invoice (SAR currency) |
 | `branded-invoice.js` | `npm run branded` | Invoice with custom accent color |
 
